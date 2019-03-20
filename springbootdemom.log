@@ -1,0 +1,12 @@
+2019-03-19 14:44:33.243  INFO 9892 --- [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests on DESKTOP-6MJ13OD with PID 9892 (started by Administrator in C:\Users\Administrator\IdeaProjects\demo)
+2019-03-19 14:44:33.244 DEBUG 9892 --- [main] com.example.demo.DemoApplicationTests    : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-19 14:44:33.245  INFO 9892 --- [main] com.example.demo.DemoApplicationTests    : No active profile set, falling back to default profiles: default
+2019-03-19 14:44:35.676  INFO 9892 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-19 14:44:36.070  INFO 9892 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-03-19 14:44:36.278  INFO 9892 --- [main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 3.896 seconds (JVM running for 5.263)
+2019-03-19 14:44:36.535 TRACE 9892 --- [main] com.example.demo.DemoApplicationTests    : trace
+2019-03-19 14:44:36.536 DEBUG 9892 --- [main] com.example.demo.DemoApplicationTests    : debug
+2019-03-19 14:44:36.537  INFO 9892 --- [main] com.example.demo.DemoApplicationTests    : info
+2019-03-19 14:44:36.538  WARN 9892 --- [main] com.example.demo.DemoApplicationTests    : warn
+2019-03-19 14:44:36.539 ERROR 9892 --- [main] com.example.demo.DemoApplicationTests    : error
+2019-03-19 14:44:36.547  INFO 9892 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
