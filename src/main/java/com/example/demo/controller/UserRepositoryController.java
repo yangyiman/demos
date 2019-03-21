@@ -1,6 +1,6 @@
 package com.example.demo.controller;
 
-import com.example.demo.dao.UserRepository;
+import com.example.demo.repository.UserRepository;
 import com.example.demo.entities.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,5 +17,10 @@ public class UserRepositoryController {
     public User selectUserById(@PathVariable("id") Integer id){
         System.out.println(id);
         return userRepository.getOne(id);
+    }
+
+    @GetMapping("/update")
+    public User updateUser(User user){
+        return userRepository.save(user);
     }
 }
