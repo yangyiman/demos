@@ -10,3 +10,725 @@
 2019-03-19 14:44:36.538  WARN 9892 --- [main] com.example.demo.DemoApplicationTests    : warn
 2019-03-19 14:44:36.539 ERROR 9892 --- [main] com.example.demo.DemoApplicationTests    : error
 2019-03-19 14:44:36.547  INFO 9892 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-21 20:51:36.505  INFO 10424 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-FNLUJKK with PID 10424 (started by 123456 in E:\IntelliJ IDEA 2017.2.2\demo)
+2019-03-21 20:51:36.553 DEBUG 10424 --- [main] com.example.demo.DemoApplication         : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-21 20:51:36.553  INFO 10424 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-03-21 20:51:38.222  INFO 10424 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 20:51:38.223  INFO 10424 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 20:51:38.324  INFO 10424 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93ms. Found 1 repository interfaces.
+2019-03-21 20:51:38.337  INFO 10424 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 20:51:38.337  INFO 10424 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 20:51:38.361  WARN 10424 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'userRepository' defined in null: Cannot register bean definition [Root bean: class [org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] for bean 'userRepository': There is already [Root bean: class [org.springframework.data.jdbc.repository.support.JdbcRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] bound.
+2019-03-21 20:51:38.374  INFO 10424 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-21 20:51:38.377 ERROR 10424 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'userRepository', defined in null, could not be registered. A bean with that name has already been defined in null and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2019-03-21 20:52:01.387  INFO 12712 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-FNLUJKK with PID 12712 (started by 123456 in E:\IntelliJ IDEA 2017.2.2\demo)
+2019-03-21 20:52:01.392 DEBUG 12712 --- [main] com.example.demo.DemoApplication         : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-21 20:52:01.394  INFO 12712 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-03-21 20:52:02.356  INFO 12712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 20:52:02.356  INFO 12712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 20:52:02.446  INFO 12712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80ms. Found 1 repository interfaces.
+2019-03-21 20:52:02.461  INFO 12712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 20:52:02.462  INFO 12712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 20:52:02.480  WARN 12712 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'userRepository' defined in null: Cannot register bean definition [Root bean: class [org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] for bean 'userRepository': There is already [Root bean: class [org.springframework.data.jdbc.repository.support.JdbcRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] bound.
+2019-03-21 20:52:02.491  INFO 12712 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-21 20:52:02.494 ERROR 12712 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'userRepository', defined in null, could not be registered. A bean with that name has already been defined in null and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2019-03-21 20:55:49.006  INFO 12292 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-FNLUJKK with PID 12292 (started by 123456 in E:\IntelliJ IDEA 2017.2.2\demo)
+2019-03-21 20:55:49.011 DEBUG 12292 --- [main] com.example.demo.DemoApplication         : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-21 20:55:49.014  INFO 12292 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-03-21 20:55:50.640  INFO 12292 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 20:55:50.642  INFO 12292 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 20:55:50.756  INFO 12292 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107ms. Found 1 repository interfaces.
+2019-03-21 20:55:50.771  INFO 12292 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 20:55:50.774  INFO 12292 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 20:55:50.801  WARN 12292 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'userRepository' defined in null: Cannot register bean definition [Root bean: class [org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] for bean 'userRepository': There is already [Root bean: class [org.springframework.data.jdbc.repository.support.JdbcRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] bound.
+2019-03-21 20:55:50.820  INFO 12292 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-21 20:55:50.825 ERROR 12292 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'userRepository', defined in null, could not be registered. A bean with that name has already been defined in null and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2019-03-21 20:56:18.566  INFO 6936 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-FNLUJKK with PID 6936 (started by 123456 in E:\IntelliJ IDEA 2017.2.2\demo)
+2019-03-21 20:56:18.572 DEBUG 6936 --- [main] com.example.demo.DemoApplication         : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-21 20:56:18.575  INFO 6936 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-03-21 20:56:20.486  INFO 6936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 20:56:20.488  INFO 6936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 20:56:20.624  INFO 6936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 128ms. Found 1 repository interfaces.
+2019-03-21 20:56:20.676  INFO 6936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 20:56:20.677  INFO 6936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 20:56:20.721  WARN 6936 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'userRepository' defined in null: Cannot register bean definition [Root bean: class [org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] for bean 'userRepository': There is already [Root bean: class [org.springframework.data.jdbc.repository.support.JdbcRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] bound.
+2019-03-21 20:56:20.768  INFO 6936 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-21 20:56:20.774 ERROR 6936 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'userRepository', defined in null, could not be registered. A bean with that name has already been defined in null and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2019-03-21 20:57:51.848  INFO 9972 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-FNLUJKK with PID 9972 (started by 123456 in E:\IntelliJ IDEA 2017.2.2\demo)
+2019-03-21 20:57:51.854 DEBUG 9972 --- [main] com.example.demo.DemoApplication         : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-21 20:57:51.856  INFO 9972 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-03-21 20:57:53.467  INFO 9972 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 20:57:53.468  INFO 9972 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 20:57:53.564  INFO 9972 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89ms. Found 1 repository interfaces.
+2019-03-21 20:57:53.577  INFO 9972 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 20:57:53.577  INFO 9972 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 20:57:53.600  WARN 9972 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'userRepository' defined in null: Cannot register bean definition [Root bean: class [org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] for bean 'userRepository': There is already [Root bean: class [org.springframework.data.jdbc.repository.support.JdbcRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] bound.
+2019-03-21 20:57:53.613  INFO 9972 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-21 20:57:53.616 ERROR 9972 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'userRepository', defined in null, could not be registered. A bean with that name has already been defined in null and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2019-03-21 20:58:08.033  INFO 10728 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-FNLUJKK with PID 10728 (started by 123456 in E:\IntelliJ IDEA 2017.2.2\demo)
+2019-03-21 20:58:08.039 DEBUG 10728 --- [main] com.example.demo.DemoApplication         : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-21 20:58:08.041  INFO 10728 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-03-21 20:58:09.581  INFO 10728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 20:58:09.582  INFO 10728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 20:58:09.670  INFO 10728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79ms. Found 1 repository interfaces.
+2019-03-21 20:58:09.680  INFO 10728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 20:58:09.681  INFO 10728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 20:58:09.701  WARN 10728 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'userRepository' defined in null: Cannot register bean definition [Root bean: class [org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] for bean 'userRepository': There is already [Root bean: class [org.springframework.data.jdbc.repository.support.JdbcRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] bound.
+2019-03-21 20:58:09.711  INFO 10728 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-21 20:58:09.713 ERROR 10728 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'userRepository', defined in null, could not be registered. A bean with that name has already been defined in null and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2019-03-21 21:03:48.884  INFO 2184 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-FNLUJKK with PID 2184 (started by 123456 in E:\IntelliJ IDEA 2017.2.2\demo)
+2019-03-21 21:03:48.888 DEBUG 2184 --- [main] com.example.demo.DemoApplication         : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-21 21:03:48.890  INFO 2184 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-03-21 21:03:50.209  INFO 2184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 21:03:50.211  INFO 2184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 21:03:50.310  INFO 2184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92ms. Found 1 repository interfaces.
+2019-03-21 21:03:50.323  INFO 2184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 21:03:50.323  INFO 2184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 21:03:50.352  WARN 2184 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'userRepository' defined in null: Cannot register bean definition [Root bean: class [org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] for bean 'userRepository': There is already [Root bean: class [org.springframework.data.jdbc.repository.support.JdbcRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] bound.
+2019-03-21 21:03:50.368  INFO 2184 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-21 21:03:50.372 ERROR 2184 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'userRepository', defined in null, could not be registered. A bean with that name has already been defined in null and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2019-03-21 21:04:58.143  INFO 13900 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-FNLUJKK with PID 13900 (started by 123456 in E:\IntelliJ IDEA 2017.2.2\demo)
+2019-03-21 21:04:58.163 DEBUG 13900 --- [main] com.example.demo.DemoApplication         : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-21 21:04:58.165  INFO 13900 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-03-21 21:04:59.270  INFO 13900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 21:04:59.272  INFO 13900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 21:04:59.369  INFO 13900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92ms. Found 1 repository interfaces.
+2019-03-21 21:04:59.379  INFO 13900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 21:04:59.379  INFO 13900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 21:04:59.395  INFO 13900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 1 repository interfaces.
+2019-03-21 21:05:00.048  INFO 13900 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c842bd61] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-21 21:05:00.508  INFO 13900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-21 21:05:00.533  INFO 13900 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-21 21:05:00.533  INFO 13900 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-21 21:05:00.540  INFO 13900 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\mysql\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\Git\cmd;C:\Program Files\Java\jre1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\123456\AppData\Local\Microsoft\WindowsApps;D:\mysql\bin;;.]
+2019-03-21 21:05:00.685  INFO 13900 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-21 21:05:00.685  INFO 13900 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2456 ms
+2019-03-21 21:05:00.962  INFO 13900 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-03-21 21:05:01.265  INFO 13900 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-21 21:05:01.333  INFO 13900 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-03-21 21:05:01.335  INFO 13900 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-21 21:05:01.469  INFO 13900 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-03-21 21:05:01.635  INFO 13900 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-21 21:05:03.217  INFO 13900 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-21 21:05:03.945  INFO 13900 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-21 21:05:03.984  WARN 13900 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-21 21:05:04.100  INFO 13900 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-03-21 21:05:04.264  INFO 13900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-21 21:05:04.267  INFO 13900 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 6.898 seconds (JVM running for 8.754)
+2019-03-21 21:07:10.714  INFO 8992 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-FNLUJKK with PID 8992 (started by 123456 in E:\IntelliJ IDEA 2017.2.2\demo)
+2019-03-21 21:07:10.732 DEBUG 8992 --- [main] com.example.demo.DemoApplication         : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-21 21:07:10.733  INFO 8992 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-03-21 21:07:12.348  INFO 8992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 21:07:12.349  INFO 8992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 21:07:12.468  INFO 8992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111ms. Found 1 repository interfaces.
+2019-03-21 21:07:12.485  INFO 8992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 21:07:12.485  INFO 8992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 21:07:12.513  INFO 8992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23ms. Found 1 repository interfaces.
+2019-03-21 21:07:13.128  INFO 8992 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6c5cb73d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-21 21:07:13.630  INFO 8992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-21 21:07:13.670  INFO 8992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-21 21:07:13.671  INFO 8992 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-21 21:07:13.680  INFO 8992 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\mysql\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\Git\cmd;C:\Program Files\Java\jre1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\123456\AppData\Local\Microsoft\WindowsApps;D:\mysql\bin;;.]
+2019-03-21 21:07:13.893  INFO 8992 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-21 21:07:13.893  INFO 8992 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3067 ms
+2019-03-21 21:07:14.210  INFO 8992 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-03-21 21:07:14.573  INFO 8992 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-21 21:07:14.659  INFO 8992 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-03-21 21:07:14.661  INFO 8992 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-21 21:07:14.854  INFO 8992 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-03-21 21:07:15.070  INFO 8992 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-21 21:07:16.168  INFO 8992 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-21 21:07:16.817  INFO 8992 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-21 21:07:16.862  WARN 8992 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-21 21:07:16.997  INFO 8992 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-03-21 21:07:17.161  INFO 8992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-21 21:07:17.163  INFO 8992 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 7.675 seconds (JVM running for 9.843)
+2019-03-21 21:08:08.862  INFO 8992 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-21 21:08:08.863  INFO 8992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-21 21:08:08.876  INFO 8992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2019-03-21 21:15:43.105  INFO 13764 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-FNLUJKK with PID 13764 (started by 123456 in E:\IntelliJ IDEA 2017.2.2\demo)
+2019-03-21 21:15:43.109 DEBUG 13764 --- [main] com.example.demo.DemoApplication         : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-21 21:15:43.110  INFO 13764 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-03-21 21:15:44.323  INFO 13764 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 21:15:44.324  INFO 13764 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 21:15:44.394  INFO 13764 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64ms. Found 1 repository interfaces.
+2019-03-21 21:15:44.403  INFO 13764 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 21:15:44.403  INFO 13764 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 21:15:44.419  INFO 13764 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 1 repository interfaces.
+2019-03-21 21:15:45.139  INFO 13764 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$78227a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-21 21:15:45.765  INFO 13764 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-21 21:15:45.802  INFO 13764 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-21 21:15:45.802  INFO 13764 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-21 21:15:45.814  INFO 13764 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\mysql\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\Git\cmd;C:\Program Files\Java\jre1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\123456\AppData\Local\Microsoft\WindowsApps;D:\mysql\bin;;.]
+2019-03-21 21:15:46.058  INFO 13764 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-21 21:15:46.059  INFO 13764 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2889 ms
+2019-03-21 21:15:46.447  INFO 13764 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-03-21 21:15:46.867  INFO 13764 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-21 21:15:46.936  INFO 13764 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-03-21 21:15:46.938  INFO 13764 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-21 21:15:47.083  INFO 13764 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-03-21 21:15:47.248  INFO 13764 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-21 21:15:47.972  INFO 13764 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-21 21:15:48.478  INFO 13764 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-21 21:15:48.519  WARN 13764 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-21 21:15:48.634  INFO 13764 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-03-21 21:15:48.820  INFO 13764 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-21 21:15:48.823  INFO 13764 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 6.515 seconds (JVM running for 8.271)
+2019-03-21 21:15:52.898  INFO 13764 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-21 21:15:52.898  INFO 13764 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-21 21:15:52.907  INFO 13764 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-03-21 21:16:36.860 ERROR 13764 --- [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.example.demo.entities.User$HibernateProxy$IBkMWJCR["hibernateLazyInitializer"])] with root cause
+
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.example.demo.entities.User$HibernateProxy$IBkMWJCR["hibernateLazyInitializer"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1191) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:313) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1396) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:913) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:287) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:103) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+
+2019-03-21 21:17:42.658 ERROR 13764 --- [http-nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.example.demo.entities.User$HibernateProxy$IBkMWJCR["hibernateLazyInitializer"])] with root cause
+
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.example.demo.entities.User$HibernateProxy$IBkMWJCR["hibernateLazyInitializer"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1191) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:313) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1396) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:913) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:287) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:103) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+
+2019-03-21 21:17:43.703 ERROR 13764 --- [http-nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.example.demo.entities.User$HibernateProxy$IBkMWJCR["hibernateLazyInitializer"])] with root cause
+
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.example.demo.entities.User$HibernateProxy$IBkMWJCR["hibernateLazyInitializer"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1191) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:313) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1396) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:913) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:287) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:103) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+
+2019-03-21 21:18:09.689  INFO 9416 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-FNLUJKK with PID 9416 (started by 123456 in E:\IntelliJ IDEA 2017.2.2\demo)
+2019-03-21 21:18:09.709 DEBUG 9416 --- [main] com.example.demo.DemoApplication         : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-21 21:18:09.710  INFO 9416 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-03-21 21:18:11.498  INFO 9416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 21:18:11.499  INFO 9416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 21:18:11.668  INFO 9416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 159ms. Found 1 repository interfaces.
+2019-03-21 21:18:11.686  INFO 9416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 21:18:11.687  INFO 9416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 21:18:11.724  INFO 9416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 1 repository interfaces.
+2019-03-21 21:18:12.533  INFO 9416 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6edf9e5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-21 21:18:13.151  INFO 9416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-21 21:18:13.203  INFO 9416 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-21 21:18:13.204  INFO 9416 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-21 21:18:13.218  INFO 9416 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\mysql\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\Git\cmd;C:\Program Files\Java\jre1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\123456\AppData\Local\Microsoft\WindowsApps;D:\mysql\bin;;.]
+2019-03-21 21:18:13.518  INFO 9416 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-21 21:18:13.518  INFO 9416 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3725 ms
+2019-03-21 21:18:13.877  INFO 9416 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-03-21 21:18:14.274  INFO 9416 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-21 21:18:14.361  INFO 9416 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-03-21 21:18:14.364  INFO 9416 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-21 21:18:14.553  INFO 9416 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-03-21 21:18:14.743  INFO 9416 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-21 21:18:15.793  INFO 9416 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-21 21:18:16.647  INFO 9416 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-21 21:18:16.708  WARN 9416 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-21 21:18:16.833  INFO 9416 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-03-21 21:18:17.011  INFO 9416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-21 21:18:17.014  INFO 9416 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 8.231 seconds (JVM running for 10.554)
+2019-03-21 21:18:23.845  INFO 9416 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-21 21:18:23.846  INFO 9416 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-21 21:18:23.853  INFO 9416 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-03-21 21:18:44.118 ERROR 9416 --- [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.example.demo.entities.User$HibernateProxy$iphpeter["hibernateLazyInitializer"])] with root cause
+
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.example.demo.entities.User$HibernateProxy$iphpeter["hibernateLazyInitializer"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1191) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:313) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1396) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:913) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:287) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:103) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+
+2019-03-21 21:21:21.532  INFO 9092 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-FNLUJKK with PID 9092 (started by 123456 in E:\IntelliJ IDEA 2017.2.2\demo)
+2019-03-21 21:21:21.536 DEBUG 9092 --- [main] com.example.demo.DemoApplication         : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-21 21:21:21.538  INFO 9092 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-03-21 21:21:22.895  INFO 9092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 21:21:22.897  INFO 9092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 21:21:23.003  INFO 9092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96ms. Found 1 repository interfaces.
+2019-03-21 21:21:23.015  INFO 9092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 21:21:23.016  INFO 9092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 21:21:23.042  INFO 9092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 1 repository interfaces.
+2019-03-21 21:21:23.589  INFO 9092 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$319d2e5a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-21 21:21:24.054  INFO 9092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-21 21:21:24.090  INFO 9092 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-21 21:21:24.091  INFO 9092 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-21 21:21:24.100  INFO 9092 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\mysql\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\Git\cmd;C:\Program Files\Java\jre1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\123456\AppData\Local\Microsoft\WindowsApps;D:\mysql\bin;;.]
+2019-03-21 21:21:24.281  INFO 9092 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-21 21:21:24.281  INFO 9092 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2671 ms
+2019-03-21 21:21:24.526  INFO 9092 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-03-21 21:21:24.834  INFO 9092 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-21 21:21:24.906  INFO 9092 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-03-21 21:21:24.908  INFO 9092 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-21 21:21:25.065  INFO 9092 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-03-21 21:21:25.238  INFO 9092 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-21 21:21:26.147  INFO 9092 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-21 21:21:26.718  INFO 9092 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-21 21:21:26.762  WARN 9092 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-21 21:21:26.873  INFO 9092 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-03-21 21:21:27.077  INFO 9092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-21 21:21:27.088  INFO 9092 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 6.467 seconds (JVM running for 7.706)
+2019-03-21 21:21:32.006  INFO 9092 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-21 21:21:32.007  INFO 9092 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-21 21:21:32.016  INFO 9092 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-03-21 21:21:44.031 ERROR 9092 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.example.demo.entities.User$HibernateProxy$bsAe1q3g["hibernateLazyInitializer"])] with root cause
+
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.example.demo.entities.User$HibernateProxy$bsAe1q3g["hibernateLazyInitializer"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1191) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:313) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1396) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:913) ~[jackson-databind-2.9.8.jar:2.9.8]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:287) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:103) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+
+2019-03-21 21:24:03.929  INFO 14712 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-FNLUJKK with PID 14712 (started by 123456 in E:\IntelliJ IDEA 2017.2.2\demo)
+2019-03-21 21:24:03.935 DEBUG 14712 --- [main] com.example.demo.DemoApplication         : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-21 21:24:03.937  INFO 14712 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-03-21 21:24:05.510  INFO 14712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 21:24:05.512  INFO 14712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 21:24:05.611  INFO 14712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93ms. Found 1 repository interfaces.
+2019-03-21 21:24:05.623  INFO 14712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-21 21:24:05.624  INFO 14712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-21 21:24:05.648  INFO 14712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 1 repository interfaces.
+2019-03-21 21:24:06.177  INFO 14712 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$42357030] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-21 21:24:06.566  INFO 14712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-21 21:24:06.592  INFO 14712 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-21 21:24:06.593  INFO 14712 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-21 21:24:06.601  INFO 14712 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\mysql\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\Git\cmd;C:\Program Files\Java\jre1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\123456\AppData\Local\Microsoft\WindowsApps;D:\mysql\bin;;.]
+2019-03-21 21:24:06.767  INFO 14712 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-21 21:24:06.768  INFO 14712 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2721 ms
+2019-03-21 21:24:07.019  INFO 14712 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-03-21 21:24:07.325  INFO 14712 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-21 21:24:07.397  INFO 14712 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-03-21 21:24:07.398  INFO 14712 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-21 21:24:07.551  INFO 14712 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-03-21 21:24:07.716  INFO 14712 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-21 21:24:08.478  INFO 14712 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-21 21:24:09.018  INFO 14712 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-21 21:24:09.058  WARN 14712 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-21 21:24:09.175  INFO 14712 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-03-21 21:24:09.345  INFO 14712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-21 21:24:09.347  INFO 14712 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 6.615 seconds (JVM running for 8.683)
+2019-03-21 21:24:18.383  INFO 14712 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-21 21:24:18.383  INFO 14712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-21 21:24:18.393  INFO 14712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms

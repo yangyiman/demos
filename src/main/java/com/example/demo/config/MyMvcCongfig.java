@@ -3,6 +3,7 @@ package com.example.demo.config;
 import com.example.demo.component.MyLoginInterceptor;
 import com.example.demo.component.MyLocaleResolver;
 import com.example.demo.component.MyLoginInterceptor;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
