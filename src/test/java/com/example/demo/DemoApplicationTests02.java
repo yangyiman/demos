@@ -34,4 +34,15 @@ public class DemoApplicationTests02 {
         /*Connection connection = dataSource.getConnection();
         System.out.println(connection);*/
     }
+
+    @Test
+    public void testDruidDataSource() throws SQLException {
+        System.out.println(dataSource.getClass());
+        Connection connection = dataSource.getConnection();
+        System.out.println(connection);
+        connection.close();
+    }
+
+
+
 }

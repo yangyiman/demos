@@ -1,7 +1,9 @@
 package com.example.demo.config;
 
-import com.example.demo.component.LoginInterceptor;
+import com.example.demo.component.MyLoginInterceptor;
 import com.example.demo.component.MyLocaleResolver;
+import com.example.demo.component.MyLoginInterceptor;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -26,7 +28,7 @@ public class MyMvcCongfig implements WebMvcConfigurer {
 
             @Override
             public void addInterceptors(InterceptorRegistry registry) {
-                registry.addInterceptor(new LoginInterceptor()).addPathPatterns("/**").excludePathPatterns("/","/index.html","/dashboard","/webjars/**","/asserts/**");
+                registry.addInterceptor(new MyLoginInterceptor()).addPathPatterns("/**").excludePathPatterns("/","/index.html","/dashboard","/webjars/**","/asserts/**");
             }
         };
         return webMvcConfigurer;

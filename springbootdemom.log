@@ -1,12 +1,122 @@
-2019-03-19 14:44:33.243  INFO 9892 --- [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests on DESKTOP-6MJ13OD with PID 9892 (started by Administrator in C:\Users\Administrator\IdeaProjects\demo)
-2019-03-19 14:44:33.244 DEBUG 9892 --- [main] com.example.demo.DemoApplicationTests    : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-03-19 14:44:33.245  INFO 9892 --- [main] com.example.demo.DemoApplicationTests    : No active profile set, falling back to default profiles: default
-2019-03-19 14:44:35.676  INFO 9892 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-03-19 14:44:36.070  INFO 9892 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2019-03-19 14:44:36.278  INFO 9892 --- [main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 3.896 seconds (JVM running for 5.263)
-2019-03-19 14:44:36.535 TRACE 9892 --- [main] com.example.demo.DemoApplicationTests    : trace
-2019-03-19 14:44:36.536 DEBUG 9892 --- [main] com.example.demo.DemoApplicationTests    : debug
-2019-03-19 14:44:36.537  INFO 9892 --- [main] com.example.demo.DemoApplicationTests    : info
-2019-03-19 14:44:36.538  WARN 9892 --- [main] com.example.demo.DemoApplicationTests    : warn
-2019-03-19 14:44:36.539 ERROR 9892 --- [main] com.example.demo.DemoApplicationTests    : error
-2019-03-19 14:44:36.547  INFO 9892 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-22 09:14:05.497 ERROR 9136 --- [Druid-ConnectionPool-Create-975905570] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: jdbc:mysql://localhost:3306/test?serverTimezone=GMT%2B8&amp&useSSL=false, errorCode 0, state 08001
+
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+	at sun.reflect.GeneratedConstructorAccessor40.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_201]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_201]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.Util.getInstance(Util.java:360) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:935) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:870) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2311) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at sun.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_201]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_201]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1558) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1623) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468) ~[druid-1.1.10.jar:1.1.10]
+Caused by: java.lang.NullPointerException: null
+	at com.mysql.jdbc.ConnectionImpl.getServerCharset(ConnectionImpl.java:2983) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.MysqlIO.sendConnectionAttributes(MysqlIO.java:1873) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1802) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	... 12 common frames omitted
+
+2019-03-22 09:14:06.004 ERROR 9136 --- [Druid-ConnectionPool-Create-975905570] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: jdbc:mysql://localhost:3306/test?serverTimezone=GMT%2B8&amp&useSSL=false, errorCode 0, state 08001
+
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+	at sun.reflect.GeneratedConstructorAccessor40.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_201]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_201]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.Util.getInstance(Util.java:360) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:935) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:870) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2311) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at sun.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_201]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_201]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1558) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1623) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468) ~[druid-1.1.10.jar:1.1.10]
+Caused by: java.lang.NullPointerException: null
+	at com.mysql.jdbc.ConnectionImpl.getServerCharset(ConnectionImpl.java:2983) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.MysqlIO.sendConnectionAttributes(MysqlIO.java:1873) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1802) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265) ~[mysql-connector-java-5.1.34.jar:5.1.34]
+	... 12 common frames omitted
+
+2019-03-22 09:15:39.467  INFO 11524 --- [main] com.example.demo.DemoApplicationTests02  : Starting DemoApplicationTests02 on DESKTOP-6MJ13OD with PID 11524 (started by Administrator in C:\Users\Administrator\IdeaProjects\demo)
+2019-03-22 09:15:39.471 DEBUG 11524 --- [main] com.example.demo.DemoApplicationTests02  : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-22 09:15:39.471  INFO 11524 --- [main] com.example.demo.DemoApplicationTests02  : No active profile set, falling back to default profiles: default
+2019-03-22 09:15:40.721  WARN 11524 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2019-03-22 09:15:40.798  INFO 11524 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-22 09:15:40.800  INFO 11524 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-22 09:15:40.915  INFO 11524 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107ms. Found 2 repository interfaces.
+2019-03-22 09:15:40.935  INFO 11524 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-22 09:15:40.937  INFO 11524 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-22 09:15:41.004  INFO 11524 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60ms. Found 2 repository interfaces.
+2019-03-22 09:15:41.698  INFO 11524 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b184d646] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-22 09:15:42.286  INFO 11524 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-03-22 09:15:43.755  INFO 11524 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-22 09:15:47.768  INFO 11524 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-03-22 09:15:47.808  INFO 11524 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-22 09:15:49.527  INFO 11524 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-03-22 09:15:51.129  INFO 11524 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-22 09:15:55.256  INFO 11524 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-22 09:15:57.733  INFO 11524 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-22 09:15:57.884  WARN 11524 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-22 09:15:58.415  INFO 11524 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-03-22 09:15:59.227  INFO 11524 --- [main] com.example.demo.DemoApplicationTests02  : Started DemoApplicationTests02 in 21.27 seconds (JVM running for 22.893)
+2019-03-22 09:15:59.426  INFO 11524 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-22 09:15:59.429  INFO 11524 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-22 09:15:59.441  INFO 11524 --- [Thread-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-03-22 09:17:14.750  INFO 12636 --- [main] com.example.demo.DemoApplicationTests02  : Starting DemoApplicationTests02 on DESKTOP-6MJ13OD with PID 12636 (started by Administrator in C:\Users\Administrator\IdeaProjects\demo)
+2019-03-22 09:17:14.753 DEBUG 12636 --- [main] com.example.demo.DemoApplicationTests02  : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-22 09:17:14.756  INFO 12636 --- [main] com.example.demo.DemoApplicationTests02  : No active profile set, falling back to default profiles: default
+2019-03-22 09:17:15.967  WARN 12636 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2019-03-22 09:17:16.028  INFO 12636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-22 09:17:16.030  INFO 12636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-22 09:17:16.133  INFO 12636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95ms. Found 2 repository interfaces.
+2019-03-22 09:17:16.147  INFO 12636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-22 09:17:16.150  INFO 12636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-22 09:17:16.191  INFO 12636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34ms. Found 2 repository interfaces.
+2019-03-22 09:17:16.882  INFO 12636 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$87e2c230] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-22 09:17:17.350  INFO 12636 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-03-22 09:17:17.945  INFO 12636 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-22 09:17:18.082  INFO 12636 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-03-22 09:17:18.086  INFO 12636 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-22 09:17:18.381  INFO 12636 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-03-22 09:17:18.814  INFO 12636 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-22 09:17:20.172  INFO 12636 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-22 09:17:21.864  INFO 12636 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-22 09:17:21.965  WARN 12636 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-22 09:17:22.326  INFO 12636 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-03-22 09:17:23.047  INFO 12636 --- [main] com.example.demo.DemoApplicationTests02  : Started DemoApplicationTests02 in 9.31 seconds (JVM running for 10.87)
+2019-03-22 09:17:23.179  INFO 12636 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-22 09:17:23.183  INFO 12636 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-22 09:17:23.193  INFO 12636 --- [Thread-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
