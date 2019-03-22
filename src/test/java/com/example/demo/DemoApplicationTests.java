@@ -22,6 +22,11 @@ public class DemoApplicationTests {
 		logger.info("info");  //定制信息
 		logger.warn("warn");  //
 		logger.error("error");
+		//包装
+		Integer a = Integer.valueOf(1);
+		//拆箱
+		int b =  a.intValue();
+		logger.info(a.getClass().getName());
 	}
 
 }

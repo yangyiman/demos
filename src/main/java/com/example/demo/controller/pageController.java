@@ -35,6 +35,7 @@ public class pageController {
     public String toSignout(HttpServletRequest request){
         HttpSession session = request.getSession();
         String loginUsername = (String) session.getAttribute("loginUsername");
+        System.out.println("signout"+" "+loginUsername);
         if(! StringUtils.isEmpty(loginUsername)){
             session.removeAttribute("loginUsername");
         }

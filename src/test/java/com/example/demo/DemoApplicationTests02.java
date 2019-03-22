@@ -43,6 +43,22 @@ public class DemoApplicationTests02 {
         connection.close();
     }
 
+    /*
+        list添加数据是从后添加,也就是越在前面,添加的时间越长,越久
+     */
+    @Test
+    public void testList(){
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(5);
+
+        System.out.println(list);
+        list.add(6);
+        System.out.println(list);
+
+    }
 
 
 }
